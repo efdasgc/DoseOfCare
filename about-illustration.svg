@@ -1,0 +1,38 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="aboutTitle">
+  <title id="aboutTitle">Illustration of a pharmacist assisting a customer at a counter</title>
+  <circle cx="320" cy="240" r="210" fill="#E4EFE9"/>
+
+  <!-- desk -->
+  <rect x="120" y="300" width="400" height="110" rx="10" fill="#16323A"/>
+  <rect x="120" y="300" width="400" height="14" rx="4" fill="#D9A441"/>
+
+  <!-- pharmacist -->
+  <g transform="translate(230,120)">
+    <circle cx="0" cy="0" r="34" fill="#F2C79E"/>
+    <path d="M-34 0 a34 34 0 0 1 68 0 v10 h-68 z" fill="#16323A"/>
+    <rect x="-40" y="34" width="80" height="90" rx="16" fill="#FFFFFF" stroke="#6E9B87" stroke-width="3"/>
+    <rect x="-8" y="34" width="16" height="90" fill="#6E9B87"/>
+  </g>
+
+  <!-- customer -->
+  <g transform="translate(430,140)">
+    <circle cx="0" cy="0" r="30" fill="#E3B98C"/>
+    <path d="M-30 -6 a30 30 0 0 1 60 0" fill="#3B2A20"/>
+    <rect x="-36" y="30" width="72" height="80" rx="16" fill="#A9C9B8"/>
+  </g>
+
+  <!-- bottle on desk -->
+  <g transform="translate(320,270)">
+    <rect x="-20" y="-40" width="40" height="60" rx="8" fill="#D9A441" stroke="#16323A" stroke-width="2.5"/>
+    <rect x="-10" y="-52" width="20" height="14" rx="4" fill="#16323A"/>
+  </g>
+
+  <!-- clipboard -->
+  <g transform="translate(150,270)">
+    <rect x="-24" y="-30" width="48" height="60" rx="6" fill="#FFFFFF" stroke="#16323A" stroke-width="2.5"/>
+    <rect x="-12" y="-36" width="24" height="10" rx="3" fill="#16323A"/>
+    <line x1="-14" y1="-8" x2="14" y2="-8" stroke="#B7C8BF" stroke-width="2"/>
+    <line x1="-14" y1="2" x2="14" y2="2" stroke="#B7C8BF" stroke-width="2"/>
+    <line x1="-14" y1="12" x2="6" y2="12" stroke="#B7C8BF" stroke-width="2"/>
+  </g>
+</svg>
